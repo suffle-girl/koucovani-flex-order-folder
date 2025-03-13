@@ -43,3 +43,37 @@
 /* zadání: 
 Prohlédni si html soubor. Nastyluj obrázky, aby se zobrazily vedle sebe, vycentrovaly v obalovém divu a zalamovaly, pokud se nevejdou na stránku. 
 Potom obrázky seřaď podle toho, jakou aktivitu budeš dělat dnes po lekci :)   */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activity {
+  background-repeat: no-repeat;
+}
+
+.cook {
+  order: 0;
+}
+
+.read {
+  order: 1;
+}
+
+.sleep {
+  order: 2;
+}
+
+.code {
+  order: 3;
+}
+
+.family {
+  order: 4;
+}
+
+.netflix {
+  order: 5;
+}
